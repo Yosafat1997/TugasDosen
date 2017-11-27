@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
+		<script src="jquery/jquery.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+        <title>Identitas Saya</title>
+    </head>
+	<style>
+
+	#head{
+	font-size:20px;
+	text-align: left;
+	margin-top: 120px;
+	color:#18293f;
+	}
+	h4{
+	text-align:left;
+	font-size:20px;
+	color:#18293f;
+	}
+	#frontline{
+	text-align: left;
+	font-size:20px;
+	color:#18293f;
+	}
+	#menuline{
+	font-size:20px;
+	font-style:bold;
+	text-align: right;
+	color:#18293f;
+	}
+	img{
+	display: block;
+    margin-top:50px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+    width: 40%;
+	border-radius: 50%;
+	}
+	
+
+</style>
+    <body>
+	<div data-role="page" id="idme">
+	<h1>Education Background</h1>
+	<ul>
+	<li>Strada Budiluhur Elementary:(2003-2009)</li>
+	<li>Strada Budiluhur Junior High :(2009-2012)</li>
+	<li>Bekasi City 14th State Senior High :(2012-2015)</li>
+	<li>Informatics Engineering , Brawijaya University (2015-now)</li>
+	</ul>
+	<a href="#menu" class="ui-btn ui-btn-a">Menu</a>
+    <div data-role="panel" id="menu" data-theme="a" data-animate="true" display="push">
+        <div id="menuline">Menu</div>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+		<li><a href="index.html" class="ui-btn ui-shadow">Home</a></li>
+		<li><a href="identitas_pribadi.html" class="ui-btn ui-shadow">Personal<br>Identity</a></li>
+		<li><a href="sekolah.html" class="ui-btn ui-shadow">Education History</a></li>
+		<li><a href="Language.html" class="ui-btn ui-shadow">Skill and Interest</a></li>
+		<li><a href="#menu" data-rel="close">Close</a></li>
+		</ul>
+		  </div><!-- /panel -->
+</div><!-- /page -->
+
+
+    </body>
+</html>

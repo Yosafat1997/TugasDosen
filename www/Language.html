@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
+		<script src="jquery/jquery.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+        <title>Identitas Saya</title>
+    </head>
+	<style>
+
+	h1{
+	font-size:30px;
+	text-align: center;
+	margin-top: 120px;
+	color:#18293f;
+	}
+	h4{
+	text-align:left;
+	font-size:20px;
+	color:#18293f;
+	}
+	#frontline{
+	text-align: left;
+	font-size:20px;
+	color:#18293f;
+	}
+	#menuline{
+	font-size:20px;
+	font-style:bold;
+	text-align: right;
+	color:#18293f;
+	}
+	img{
+	display: block;
+    margin-top:50px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+    width: 40%;
+	border-radius: 50%;
+	}
+	
+
+</style>
+    <body>
+	
+	
+
+	<div data-role="page" >
+	<h1>Proggramming</h1>
+	<img src= "https://yt3.ggpht.com/-waXbjXDyTNE/AAAAAAAAAAI/AAAAAAAAAAA/s5mqMBTWuDw/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="java" style="width:200px;height:200px"><br>
+	<img src= "https://www.sololearn.com/Icons/Courses/1080.png" alt="C#" style="width:200px;height:200px">
+	<img src= "https://www.netgenlabs.com/var/ezflow_site/storage/images/naslovnica/blog/filling-out-pdf-forms-in-php-with-utf-8-encoding/9306-4-eng-GB/Filling-out-PDF-forms-in-PHP-with-UTF-8-encoding_ng_image_full.png" alt="C#" style="width:200px;height:200px">
+	<img src= "https://azure.microsoft.com/svghandler/sql-database/?width=600&height=315" alt="C#" style="width:200px;height:200px">
+	<h1>Hobby</h1>
+	<ul>
+	<li>Singing</li>
+	<li>Drawing</li>
+	<li>Gaming</li>
+	</ul>
+	<h1>Interest</h1>
+	<ul>
+	<li>Artificial Inteligence</li>
+	<li>Hybrid Mobile Proggramming</li>
+	<li>Aviation</li>
+	<li>Anime and Manga</li>
+	</ul>
+	<a href="#menu" class="ui-btn ui-btn-a">Menu</a>
+    <div data-role="panel" id="menu" data-theme="a" data-animate="true" display="push">
+        <div id="menuline">Menu</div>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+		<li><a href="index.html" class="ui-btn ui-shadow">Home</a></li>
+		<li><a href="identitas_pribadi.html" class="ui-btn ui-shadow">Personal<br>Identity</a></li>
+		<li><a href="sekolah.html" class="ui-btn ui-shadow">Education History</a></li>
+		<li><a href="Language.html" class="ui-btn ui-shadow">Skill and Interest</a></li>
+		<li><a href="#menu" data-rel="close">Close</a></li>
+		</ul>
+		
+		  </div><!-- /panel -->
+</div><!-- /page -->
+
+
+    </body>
+</html>
