@@ -2,79 +2,38 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> 
 		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
 		<script src="jquery/jquery.min.js"></script>
 		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
-        <title>Home</title>
+        <title>Tentangku</title>
     </head>
 	<style>
-	
-	#homepeji{
-	background-color:#283c56;
-	}
-	
-	profile {
-    border-radius: 50%;
-	}
-	h1{
-	font-size:30px;
-	text-align: center;
-	margin-top: 120px;
-	color:#ffffff;
-	}
-	h4{
-	text-align: center;
-	font-size:20px;
-	color:#ff7200;
-	}
-	#frontline{
-	text-align: center;
-	font-size:20px;
-	color:#ff9900;
-	}
-	#menuline{
-	font-size:80px;
-	font-style:bold;
-	text-align: center;
-	color:#ff9900;
-	}
-	img{
-	display: block;
-    margin-top:50px;
-	margin-bottom:auto;
-	margin-left:auto;
-	margin-right:auto;
-    width: 40%;
-	border-radius: 50%;
-	}
-	
-
-</style>
+	body{
+	text-align:center; }
+	img{ 
+	width:200px;
+	height:200px;
+	border-radius: 50%;}
+	#menubar{ 
+	text-align:right;}
+	</style>
     <body>
-<div data-role="page" id="homepeji">
-	<h1>About Me</h1>
-    <img src= "https://scontent.fcgk10-1.fna.fbcdn.net/v/t1.0-9/23844769_1546371968791186_1855421434250181605_n.jpg?oh=0cff964f138a517ae2a4c7f85b320a9e&oe=5A9133F4" alt="me" style="width:200px;height:200px"><br>
-
-	<h4>Yosafat Vincent Saragih</h4>
-	<div id="frontline">15515020111301</div>
-	<a href="#menu" class="ui-btn ui-btn-a">Menu</a>
-	
-    <div data-role="panel" id="menu" data-theme="a" data-animate="true" display="push">
-        <div id="menuline">Menu</div>
-		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
-		<li><a href="index.html" class="ui-btn ui-shadow">Home</a></li>
-		<li><a href="identitas_pribadi.html" class="ui-btn ui-shadow">Personal<br>Identity</a></li>
-		<li><a href="sekolah.html" class="ui-btn ui-shadow">Education History</a></li>
-		<li><a href="Language.html" class="ui-btn ui-shadow">Skill and Interest</a></li>
-		<li><a href="#menu" data-rel="close">Close</a></li>
-		</ul>
-		  </div><!-- /panel -->
-</div><!-- /page -->
-  
-
-
-        <script type="text/javascript" src="cordova.js"></script>
-
+<div data-role="page">
+	<h1>Tentang Saya</h1>
+	<h2>Yosafat Vincent Saragih</h2>
+	<h3>155150201111301</h3>
+	<img src= "/res/me.jpg" alt="me">
+<a href="#menubar" class="ui-btn ui-btn-a" >Menu</a>
+	<div data-role="panel" id="menubar" data-display="push" data-theme="a" data-animate="true">
+	<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+		<h3>MENU</h3>
+		<li><a href="#"class="ui-btn ui-btn-a">Home</a></li>
+		<li><a href="datadiri.html"class="ui-btn ui-btn-a">Identitas Pribadi</a></li>
+		<li><a href="matkul.html"class="ui-btn ui-btn-a">Matakuliah yang diambil</a></li>
+		<li><a href="#menu"data-rel="close"class="ui-btn ui-btn-a">Tutup</a></li>
+	</ul>
+</div>
+</div>
     </body>
 </html>

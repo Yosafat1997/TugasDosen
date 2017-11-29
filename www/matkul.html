@@ -2,35 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> 
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
 		<script src="jquery/jquery.min.js"></script>
 		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
         <title>Tentangku</title>
     </head>
-	<style>
-	body{
-	text-align:center; }
-	img{ 
-	width:200px;
-	height:200px;
-	border-radius: 50%;}
-	#menubar{ 
-	text-align:right;}
-	</style>
     <body>
 <div data-role="page">
-	<h1>Tentang Saya</h1>
-	<h2>Yosafat Vincent Saragih</h2>
-	<h3>155150201111301</h3>
-	<img src= "/res/me.jpg" alt="me">
+	<h1>Mata Kuliah yang diambil</h1>
+<ul data-role="listview" data-filter="true" data-filter-placeholder="Matakuliah..." data-inset="true">
+    <li>Pengolahan Citra Digital</li>
+	<li>Rekayasa Perangkat Lunak</li>
+	<li>Rekayasa dan Manajemen Kebutuhan</li>
+	<li>Sistem Pendukung Keputusan</li>
+	<li>Pemrograman Platform Khusus</li>
+	<li>Pengenalan Pola</li>
+	<li>Keamanan Informasi</li>
+</ul>
 <a href="#menubar" class="ui-btn ui-btn-a" >Menu</a>
 	<div data-role="panel" id="menubar" data-display="push" data-theme="a" data-animate="true">
 	<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
 		<h3>MENU</h3>
-		<li><a href="#"class="ui-btn ui-btn-a">Home</a></li>
+		<li><a href="index.html"class="ui-btn ui-btn-a">Home</a></li>
 		<li><a href="datadiri.html"class="ui-btn ui-btn-a">Identitas Pribadi</a></li>
-		<li><a href="matkul.html"class="ui-btn ui-btn-a">Matakuliah yang diambil</a></li>
+		<li><a href="#"class="ui-btn ui-btn-a">Matakuliah yang diambil</a></li>
 		<li><a href="#menu"data-rel="close"class="ui-btn ui-btn-a">Tutup</a></li>
 	</ul>
 </div>

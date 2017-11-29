@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> 
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
 		<script src="jquery/jquery.min.js"></script>
 		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
@@ -10,26 +10,26 @@
     </head>
 	<style>
 	body{
-	text-align:center; }
-	img{ 
-	width:200px;
-	height:200px;
-	border-radius: 50%;}
-	#menubar{ 
-	text-align:right;}
+	text-align:center;}
 	</style>
     <body>
 <div data-role="page">
-	<h1>Tentang Saya</h1>
-	<h2>Yosafat Vincent Saragih</h2>
-	<h3>155150201111301</h3>
-	<img src= "/res/me.jpg" alt="me">
+	<h3>Identitas Diri</h1>
+<ul data-role="listview" data-filter="false" data-inset="true">
+	<li data-role="list-divider">Informasi dasar</li>
+    <li><h4>Nama Lengkap</h4><p>Yosafat Vincent Saragih</p></li>
+	<li><h4>NIM</h4><p>155150201111301</p></li>
+	<li><h4>Tempat,Tanggal Lahir</h4><p>Bekasi,6 Juni 1997</p></li>
+	<li><h4>Alamat di Malang</h4><p>Bendungan Sengguruh no 7 Malang</p></li>
+	<li><h4>Nomor Telepon</h4><p>082144537374</p></li>
+	<li><h4>Email</h4><p>yosafat.saragih164@gmail.com</p></li>
+</ul><!--akhir dari tag list-->
 <a href="#menubar" class="ui-btn ui-btn-a" >Menu</a>
 	<div data-role="panel" id="menubar" data-display="push" data-theme="a" data-animate="true">
 	<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
 		<h3>MENU</h3>
-		<li><a href="#"class="ui-btn ui-btn-a">Home</a></li>
-		<li><a href="datadiri.html"class="ui-btn ui-btn-a">Identitas Pribadi</a></li>
+		<li><a href="index.html"class="ui-btn ui-btn-a">Home</a></li>
+		<li><a href="#"class="ui-btn ui-btn-a">Identitas Pribadi</a></li>
 		<li><a href="matkul.html"class="ui-btn ui-btn-a">Matakuliah yang diambil</a></li>
 		<li><a href="#menu"data-rel="close"class="ui-btn ui-btn-a">Tutup</a></li>
 	</ul>
